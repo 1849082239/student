@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    /*background: url("../img/bg1.jpg");*/
+}
+img{
+    vertical-align: top;
+}
+.header{
+    width: 1000px;
+    height: 143px;
+    margin: auto;
+    position: relative;
+}
+.header a img{
+    position: absolute;
+    left: 0;
+}
+.header .header_right_top ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .header_right_bot ul{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+.header .header_right_top ul li,.header_right_bot ul li{
+    float: left;
+}
+.header .header_right_top ul li a{
+    color: #000000;
+}
+.header .header_right_top ul li:nth-child(2){
+    margin: 0 10px;
+}
+.header .header_right_bot ul{
+    padding: 0 30px;
+}
+.header .header_right_bot ul{
+    background: #dedbdb;
+    height: 50px;
+}
+.header .header_right_bot ul li a{
+    color: #808080;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+.header .header_right_top ul li a:hover{
+    color: #4C4C4C;
+}
+.header .header_right_bot ul li a:hover{
+    color: #4C4C4C;
+}
+.lbt{
+    width: 1349px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+}
+.lbt ul li{
+    display: none;
+}
+.lbt ul li img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lbt p{
+    position: absolute;
+    left: 600px;
+    top: 450px;
+}
+.lbt p span{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.7);
+    margin-right: 30px;
+}
+.end{
+    position: relative;
+    top: 20px;
+    width: 1349px;
+    height: 25px;
+    padding-left: 580px;
+    box-sizing: border-box;
+}
+.mask_box1,.mask_box2{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+}
+.mask_content{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 250px;
+    background: rgba(255,255,255,.8);
+}
+.mask_show{
+    display: block;
+}
+
+.mask_content_box{
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.mask_div_input{
+    margin-bottom: 20px;
+}

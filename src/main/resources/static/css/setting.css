@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    /*background: url("../img/bg1.jpg");*/
+}
+img{
+    vertical-align: top;
+}
+.header{
+    width: 1000px;
+    height: 143px;
+    margin: auto;
+    position: relative;
+}
+.header a img{
+    position: absolute;
+    left: 0;
+}
+.header .header_right_top ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .header_right_bot ul{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+.header .header_right_top ul li,.header_right_bot ul li{
+    float: left;
+}
+.header .header_right_top ul li a{
+    color: #000000;
+}
+.header .header_right_top ul li:nth-child(2){
+    margin: 0 10px;
+}
+.header .header_right_bot ul{
+    padding: 0 30px;
+}
+.header .header_right_bot ul{
+    background: #dedbdb;
+    height: 50px;
+}
+.header .header_right_bot ul li a{
+    color: #808080;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+.header .header_right_top ul li a:hover{
+    color: #4C4C4C;
+}
+.header .header_right_bot ul li a:hover{
+    color: #4C4C4C;
+}
+.center{
+    width: 1349px;
+    height: 500px;
+}
+.center .center_left{
+    width: 335px;
+    height: 500px;
+    float: left;
+    border-right: 1px dashed #43585C;
+}
+.center .center_left ul li{
+    width: 335px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "黑体";
+    font-size: 20px;
+    background: #8F8E8A;
+    border-bottom: 1px dashed #43585C;
+}
+.center .center_left ul li a{
+    color: white;
+}
+.center .center_right{
+    width: 1010px;
+    height: 500px;
+    float: right;
+    position: relative;
+}
+.center .center_right .center_right_learn{
+    width: 1010px;
+    height: 500px;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px dashed #43585C;
+    display: none;
+}
+.center .center_right .center_right_learn table{
+    margin: auto;
+}
+.center .center_right .center_right_learn table tr td{
+    width: 300px;
+    height: 100px;
+}
+.center .center_right .center_right_learn table tr td:nth-child(1){
+    text-align: right;
+}
+.center .center_right .center_right_learn table tr td input[type=text]{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    background: #DEDBDB;
+    border: 1px solid #4C4C4C;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+}
+.center .center_right .center_right_learn table tr:nth-child(2) td input{
+    margin-right: 10px;
+}
+.center .center_right .center_right_help{
+    width: 1010px;
+    height: 500px;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px dashed #43585C;
+    display: none;
+}
+.center .center_right .center_right_help ul{
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+}
+.center .center_right .center_right_help ul li{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #DEDBDB;
+    margin-bottom: 20px;
+}
+.center .center_right .center_right_help ul li a{
+    font-size: 18px;
+    color: black;
+}
+.end{
+    position: relative;
+    top: 20px;
+    width: 1349px;
+    height: 25px;
+    padding-left: 580px;
+    box-sizing: border-box;
+}

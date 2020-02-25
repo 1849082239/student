@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    /*background: url("../img/bg1.jpg");*/
+}
+img{
+    vertical-align: top;
+}
+.header{
+    width: 1000px;
+    height: 143px;
+    margin: auto;
+    position: relative;
+}
+.header a img{
+    position: absolute;
+    left: 0;
+}
+.header .header_right_top ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .header_right_bot ul{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+.header .header_right_top ul li,.header_right_bot ul li{
+    float: left;
+}
+.header .header_right_top ul li a{
+    color: #000000;
+}
+.header .header_right_top ul li:nth-child(2){
+    margin: 0 10px;
+}
+.header .header_right_bot ul{
+    padding: 0 30px;
+}
+.header .header_right_bot ul{
+    background: #dedbdb;
+    height: 50px;
+}
+.header .header_right_bot ul li a{
+    color: #808080;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+.header .header_right_top ul li a:hover{
+    color: #4C4C4C;
+}
+.header .header_right_bot ul li a:hover{
+    color: #4C4C4C;
+}
+.center{
+    width: 1349px;
+    height: 500px;
+}
+.center .center_left{
+    width: 335px;
+    height: 500px;
+    float: left;
+    border-right: 1px dashed #43585C;
+}
+.center .center_left .center_left_top{
+    height: 250px;
+    border-top: 1px solid white;
+}
+.center .center_left .center_left_top .center_left_top_content{
+    width: 116px;
+    height: 130px;
+    margin: auto;
+    margin-top: 60px;
+    background: url("../img/review_ti.png");
+}
+.center .center_left .center_left_top .center_left_top_content span{
+    display: inline-block;
+    width: 14px;
+    height: 90px;
+}
+.center .center_left .center_left_top .center_left_top_content span:nth-child(1){
+    position: relative;
+    top: 15px;
+    left: 18px;
+}
+.center .center_left .center_left_top .center_left_top_content span:nth-child(2){
+    position: relative;
+    top: 15px;
+    left: 60px;
+    color: white;
+}
+.center .center_left .center_left_bot{
+    height: 250px;
+    text-align: center;
+}
+.center .center_left .center_left_bot .center_left_bot_content{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #8F8E8A;
+    margin-top: 25px;
+    line-height: 200px;
+}
+.center .center_left .center_left_bot .center_left_bot_content a{
+    color: #000000;
+}
+.center .center_right{
+    width: 1010px;
+    height: 500px;
+    float: right;
+    border-left: 1px dashed #43585C;
+}
+.center .center_right .center_right_top{
+    height: 198px;
+    border-bottom: 1px dashed #43585C;
+    margin-bottom: 2px;
+}
+.center .center_right .center_right_top .center_right_top_content{
+    text-indent: 2em;
+}
+.center .center_right .center_right_center{
+    width: 1010px;
+    height: 46px;
+    border-top: 1px dashed #43585C;
+    border-bottom: 1px dashed #43585C;
+    position: relative;
+}
+.center .center_right .center_right_center .center_right_center_n,.center_right_center_p{
+    width: 900px;
+    height: 46px;
+    margin-bottom: 2px;
+    text-align: center;
+    line-height: 46px;
+    position: absolute;
+    cursor: pointer;
+}
+.center .center_right .center_right_center .center_right_center_p{
+    display: block;
+}
+.center .center_right .center_right_center .center_right_center_n{
+    display: none;
+}
+.center .center_right .center_right_center .center_true{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: 80px;
+    top: 8px;
+    border: none;
+    background: #8F8E8A;
+    color: floralwhite;
+    cursor: pointer;
+}
+.center .center_right .center_right_center .center_false{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    border: none;
+    background: #8F8E8A;
+    color: floralwhite;
+    cursor: pointer;
+}
+.center .center_right .center_right_bot{
+    width: 1010px;
+    height: 248px;
+    border-top: 1px dashed #43585C;
+    margin-top: 3px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    resize: none;
+}
+.end{
+    position: relative;
+    top: 20px;
+    width: 1349px;
+    height: 25px;
+    padding-left: 580px;
+    box-sizing: border-box;
+}
